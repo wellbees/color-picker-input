@@ -16,6 +16,7 @@
     "url": "https://github.com/wellbees"
   },
   "license": "MIT",
+  "repository": "wellbees/color-picker-input",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
