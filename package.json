@@ -1,5 +1,5 @@
 {
-  "name": "@wellbee/cpi",
+  "name": "@wellbeestech/cpi",
   "version": "1.0.0",
   "description": "Color picker library for React",
   "main": "dist/index.js",
