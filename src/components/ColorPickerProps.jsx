@@ -19,6 +19,7 @@ export const ColorPickerProps = {
   label: PropTypes.string,
   placeholder: PropTypes.string,
   required: PropTypes.bool,
+  resetDefaultButton: PropTypes.bool,
   onFocus: PropTypes.func,
   onBlur: PropTypes.func,
   onClick: PropTypes.func,
@@ -36,4 +37,5 @@ export const ColorPickerDefaultProps = {
   error: false,
   fullWidth: false,
   required: false,
+  resetDefaultButton: true,
 }
