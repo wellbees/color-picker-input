@@ -1,6 +1,6 @@
 {
   "name": "@wellbees/color-picker-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color picker library for React",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
