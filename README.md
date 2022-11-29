@@ -8,7 +8,7 @@ Color picker library for React (default react or mui compatible)
 ## Installation 
 
 ```bash 
-  npm install @wellbees/cpi
+  npm install @wellbees/color-picker-input
 ```
     
 ## Usage/Examples
