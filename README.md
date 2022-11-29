@@ -16,7 +16,7 @@ Color picker library for React (default react or mui compatible)
 For React:
 ```js
 import { useState } from 'react'
-import { ColorPicker } from 'color-picker-input'
+import { ColorPicker } from '@wellbees/color-picker-input'
 
 function App() {
   const [colorValue, setColorValue] = useState('')
@@ -32,7 +32,7 @@ function App() {
 For @mui (v5):
 ```js
 import { useState } from 'react'
-import { ColorPicker } from 'color-picker-input'
+import { ColorPicker } from '@wellbees/color-picker-input'
 
 function App() {
   const [colorValue, setColorValue] = useState('')
