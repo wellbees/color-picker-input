@@ -73,6 +73,7 @@ function App() {
 | label | String | | Used to input label |
 | placeholder | String | | Used to input placeholder |
 | required | Boolean | `false` | Used to define input require |
+| resetIcon | `svg` | `Revert Icon` | Used to define reset icon |
 | onFocus | Function | | Exam: `function(e) => void` |
 | onBlur | Function | | Exam: `function(e) => void` |
 | onClick | Function | | Exam: `function(e) => void` |
