@@ -25,17 +25,3 @@ export const ColorPickerProps = {
   onClick: PropTypes.func,
   onChange: PropTypes.func
 }
-
-export const ColorPickerDefaultProps = {
-  colorShowType: 'square',
-  pickerType: 'chrome',
-  inputType: 'input',
-  variant: 'outlined',
-  size: 'medium',
-  autoFocus: false,
-  disabled: false,
-  error: false,
-  fullWidth: false,
-  required: false,
-  resetDefaultButton: true,
-}

@@ -1,40 +1,39 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { ChromePicker, GithubPicker, TwitterPicker } from 'react-color'
 import { TextField } from '@mui/material'
-import { ColorPickerProps, ColorPickerDefaultProps } from './ColorPickerProps'
+import { ColorPickerProps } from './ColorPickerProps'
 import ColorPickerStyles, { cssResolver } from './ColorPickerStyles'
 
 const styles = ColorPickerStyles
 
-const ColorPicker = ({ ...props }) => {
-  const {
-    resetIcon,
-    resetDefaultButton,
-    colorShowType,
-    pickerType,
-    specialColors,
-    inputType,
-    variant,
-    size,
-    className,
-    style,
-    id,
-    name,
-    label,
-    value,
-    disabled,
-    required,
-    autoFocus,
-    fullWidth,
-    placeholder,
-    error,
-    helperText,
-    onFocus,
-    onBlur,
-    onClick,
-    onChange
-  } = props
-
+const ColorPicker = ({
+  resetIcon,
+  resetDefaultButton = true,
+  colorShowType = 'square',
+  pickerType = 'chrome',
+  specialColors,
+  inputType = 'input',
+  variant = 'outlined',
+  size = 'medium',
+  className,
+  style,
+  id,
+  name,
+  label,
+  value,
+  disabled = false,
+  required = false,
+  autoFocus = false,
+  fullWidth = false,
+  placeholder,
+  error = false,
+  helperText,
+  onFocus,
+  onBlur,
+  onClick,
+  onChange,
+  ...props
+}) => {
   const [pickerOpen, setPickerOpen] = useState(false)
   const [defaultComponentValue, setDefaultComponentValue] = useState(value)
   const [inputValue, setInputValue] = useState(value)
@@ -244,7 +243,5 @@ const ColorPicker = ({ ...props }) => {
 }
 
 ColorPicker.propTypes = ColorPickerProps
-
-ColorPicker.defaultProps = ColorPickerDefaultProps
 
 export default ColorPicker
